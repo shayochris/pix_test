@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTheme } from '../contexts/ThemeContext';
 import Button from '../components/Button';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   const { isDark, setTheme } = useTheme();
@@ -14,6 +15,10 @@ export default function Home() {
         setTheme(isDark ? 'light' : 'dark');
        }}
       />
+      <div className="mt-2">
+        <Link to="/login" >Login</Link>
+      </div>
+      
     </div>
   )
 }
