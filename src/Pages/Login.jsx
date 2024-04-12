@@ -47,7 +47,7 @@ export default function Login() {
         </div>
         <Button
           text = {'login'}
-          background = {'blue-500'}
+          background = {'bg-blue-500'}
           textColor = {'white'}
           block = {true}
         />

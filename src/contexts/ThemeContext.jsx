@@ -8,8 +8,8 @@ export const ThemeProvider = ({ children }) => {
     let mode = localStorage.getItem('dark');
     return mode ? JSON.parse(mode) : false;
   });
-  const theme = isDark ? 'bg-[#121212] text-gray-400' : 'bg-white text-gray-700';
-  const ui = isDark ? 'bg-[#181818]' : 'bg-[#F5F5F5]';
+  const theme = isDark ? 'bg-[#121212] text-white' : 'bg-white text-black';
+  const ui = isDark ? 'bg-[#181818]' : 'bg-gray-100';
   const border = isDark ? 'border-[#282828]' : 'border-gray-300';
   const setTheme = (data) =>{
     if(data === 'light'){

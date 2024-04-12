@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wrapper{
+  @apply fixed w-full h-screen top-0 left-0;
+}
+
+/* icons */
+.icon{
+  @apply w-5 h-5;
+}
+.sidebar-icon{
+  @apply w-6 h-6;
+}
+.active{
+  @apply font-semibold;
+}
+
+/*flex*/
+.flex-a{
+  @apply flex items-center
+}
+.flex-b{
+  @apply flex items-center justify-between
+}
+.flex-c{
+  @apply flex items-center justify-center
+}
