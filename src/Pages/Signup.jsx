@@ -56,12 +56,13 @@ export default function Signup() {
             required = {true}
           />
         </div>
-        <Button
+        {/* <Button
           text = {'signup'}
           background = {'blue-500'}
           textColor = {'white'}
           block = {true}
-        />
+        /> */}
+        <button className="w-full p-2 text-white bg-blue-500 text-white rounded-lg">Signup</button>
         
       </form>
       <div className={`p-4 border ${border} mt-3 text-center text-sm `} >

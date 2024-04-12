@@ -45,12 +45,13 @@ export default function Login() {
             required = {true}
           />
         </div>
-        <Button
+        {/* <Button
           text = {'login'}
           background = {'blue-500'}
           textColor = {'white'}
           block = {true}
-        />
+        /> */}
+        <button className="w-full p-2 text-white bg-blue-500 text-white rounded-lg">login</button>
         
       </form>
       <div className={`p-4 border ${border} mt-3 text-center text-sm `} >

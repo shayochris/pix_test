@@ -4,7 +4,7 @@ import { useTheme } from '../contexts/ThemeContext';
 export default function TextInput({rounded=true, ...props}) {
   const { border,ui } = useTheme();
   let type = props.type || 'text';
-  let style = `${ui} outline-none text-sm py-2 px-3`;
+  let style = `${ui} outline-none py-2 px-3`;
   if(props.bordered){
     style += ` border ${border}`;
   }
