@@ -10,6 +10,9 @@
 .icon{
   @apply w-5 h-5;
 }
+.icon-md{
+  @apply w-6 h-6;
+}
 .sidebar-icon{
   @apply w-6 h-6;
 }

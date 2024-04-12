@@ -22,8 +22,8 @@ export default function Home() {
           <IoAddCircleOutline className='sidebar-icon font-semibold mr-1'/>
           <div onClick={()=>setTheme(isDark ? 'light' : 'dark')} >
             { isDark ? 
-              (<MdLightMode className='sidebar-icon' />) : 
-              (<MdDarkMode className='sidebar-icon ml-2' />)
+              (<MdLightMode className='icon-md' />) : 
+              (<MdDarkMode className='icon-md ml-2' />)
             }
           </div>
         </div>
@@ -46,10 +46,10 @@ export default function Home() {
                 <img src={prosciuto} alt="" className="w-full h-full object-cover" />
               </div>
               <div className="p-2">
-                <div className="flex-a">
-                  <FaRegHeart className='icon'/>
-                  <PiChatCircleBold className='icon mx-3'/>
-                  <FiSend className='icon'/>
+                <div className="flex-a py-2">
+                  <FaRegHeart className='icon-md'/>
+                  <PiChatCircleBold className='icon-md mx-3'/>
+                  <FiSend className='icon-md'/>
                 </div>
                 <div className='text-sm '>
                   <p className='font-semibold' >1,234,567 likes</p>
