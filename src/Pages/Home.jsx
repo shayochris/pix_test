@@ -45,8 +45,8 @@ export default function Home() {
               <div className="bg-gray-400">
                 <img src={prosciuto} alt="" className="w-full h-full object-cover" />
               </div>
-              <div className="p-2">
-                <div className="flex-a py-2">
+              <div className="p-4">
+                <div className="flex-a mb-2">
                   <FaRegHeart className='icon-md'/>
                   <PiChatCircleBold className='icon-md mx-3'/>
                   <FiSend className='icon-md'/>
