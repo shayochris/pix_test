@@ -56,20 +56,16 @@ export default function Signup() {
             required = {true}
           />
         </div>
-        {/* <Button
+        <Button
           text = {'signup'}
           background = {'blue-500'}
           textColor = {'white'}
           block = {true}
-        /> */}
-        <button className="w-full p-2 text-white bg-blue-500 text-white rounded-lg">Signup</button>
+        />
         
       </form>
       <div className={`p-4 border ${border} mt-3 text-center text-sm `} >
         <p>Already have an account  <Link to="/login" className='text-blue-500' >Login</Link> </p>
-        <div>
-          <Link to="/home" className='underline text-blue-500' >Home</Link>
-        </div>
       </div>
     </div>
   )
